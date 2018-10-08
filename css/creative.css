@@ -360,6 +360,7 @@ header.subhead {
   padding-top: 10%;
   background-position: center center;
   background-size: cover;
+  min-height: 120px;
 }
 
 header.subhead.about {
@@ -479,7 +480,7 @@ div.case th {
   vertical-align: top;
 }
 
-h4 {
+h5 {
   border-bottom: solid 2px #F78C00;
 }
 
