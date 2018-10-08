@@ -79,8 +79,4 @@
     }
   });
 
-  $('.popup').modaal({
-    fullscreen: true
-  });
-
 })(jQuery); // End of use strict
