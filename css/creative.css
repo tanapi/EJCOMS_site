@@ -488,7 +488,8 @@ div.case th {
   vertical-align: top;
 }
 
-h5 {
+h4 {
+  font-size: 1.25rem;
   border-bottom: solid 2px #F78C00;
 }
 
