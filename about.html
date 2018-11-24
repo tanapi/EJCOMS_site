@@ -23,9 +23,13 @@
     <link href="vendor/modal/modaal.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="css/creative.css" rel="stylesheet">
+    <link href="css/creative.min.css" rel="stylesheet">
 
+    <!-- web font -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+
+    <!-- favicon-->
+    <link rel="icon" href="favicon.ico" type="image/vnd.microsoft.icon">
 
   </head>
 
@@ -322,30 +326,16 @@
         </div>
         <div class="row">
           <div class="col-lg-4 ml-auto text-center">
-            <i class="fas fa-phone fa-3x mb-3 sr-contact-1"></i>
-            <p>TEL 042-860-1021<br>FAX 042-860-1022</p>
+            <a class="no-deco" href="tel:0428601021">
+              <i class="fas fa-phone fa-3x mb-3 sr-contact-1"></i>
+              <p>TEL 042-860-1021<br>FAX 042-860-1022</p>
+            </a>
           </div>
           <div class="col-lg-4 mr-auto text-center">
-            <i class="fas fa-envelope fa-3x mb-3 sr-contact-2"></i>
-            <p>
-                <script type="text/javascript">
-                  function converter(M){
-                  var str="", str_as="";
-                  for(var i=0;i<M.length;i++){
-                  str_as = M.charCodeAt(i);
-                  str += String.fromCharCode(str_as + 1);
-                  }
-                  return str;
-                  }
-                  function mail_to(k_1,k_2)
-                  {eval(String.fromCharCode(108,111,99,97,116,105,111,110,46,104,114,101,102,32,
-                  61,32,39,109,97,105,108,116,111,58) 
-                  + escape(k_1) + 
-                  converter(String.fromCharCode(104,109,101,110,63,100,105,98,110,108,114,45,98,110,45,105,111,
-                  62,114,116,97,105,100,98,115,60)) 
-                  + escape(k_2) + "'");} 
-                  document.write('<a href=JavaScript:mail_to("","")>&#105;&#110;&#102;&#111;&#64;&#101;&#106;&#99;&#111;&#109;&#115;&#46;&#99;&#111;&#46;&#106;&#112;<\/a>');
-                  </script>
+            <a class="no-deco" href="https://ws.formzu.net/fgen/S8793271/" target="_blank">
+              <i class="fas fa-envelope fa-3x mb-3 sr-contact-2"></i>
+              <p>お問い合わせはこちら</p>
+            </a>
             </p>
           </div>
         </div>
@@ -368,8 +358,8 @@
     <script src="vendor/modal/modaal.min.js"></script>
 
     <!-- Custom scripts for this template -->
-    <script src="js/sub.js"></script>
-    <script src="js/popup.js"></script>
+    <script src="js/sub.min.js"></script>
+    <script src="js/popup.min.js"></script>
 
   </body>
 

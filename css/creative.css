@@ -262,6 +262,14 @@ header.masthead p {
   transition: all 0.2s;
 }
 
+@media only screen and (max-width: 750px) {
+  .portfolio-box .portfolio-box-caption {
+    opacity: 0.9;
+    height: 60%;
+
+  }
+}
+
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content {
   position: absolute;
   top: 50%;
@@ -675,6 +683,10 @@ div.popup-area {
   color: gray;
 }
 
+a[href^="tel:"] {
+  cursor: default; 
+}
+
 /*/////////////////////////////////////////////////
 //LINE風チャット画面(会話方式)を記事に表示する方法
 /////////////////////////////////////////////////*/
@@ -825,4 +837,3 @@ div.popup-area {
   font-size: 80%;
   color: #ffffff;
 }
-
