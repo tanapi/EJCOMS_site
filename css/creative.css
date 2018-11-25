@@ -244,7 +244,7 @@ header.masthead p {
 .portfolio-box {
   position: relative;
   display: block;
-  max-width: 650px;
+  max-width: 800px;
   margin: 0 auto;
 }
 
@@ -264,7 +264,7 @@ header.masthead p {
 
 @media only screen and (max-width: 750px) {
   .portfolio-box .portfolio-box-caption {
-    opacity: 0.9;
+    opacity: 0.8;
     height: 60%;
 
   }
