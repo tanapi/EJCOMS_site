@@ -618,6 +618,7 @@ div.voice .box-title {
   font-weight: bold;
 }
 div.voice p {
+  font-size: 22px;
   margin: 0; 
   padding: 0;
 }
